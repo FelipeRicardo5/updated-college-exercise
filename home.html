@@ -41,7 +41,7 @@
                         Desenvolvido: Felipe Ricardo.<br>
                         Visite: Portifólio GitHub<br>
                         Rua Assis Brasil, 177<br>
-                        Recife, PE – Brasil
+                        Recife, PE - Brasil
                     </p>
                 </div>
 
@@ -50,27 +50,26 @@
         <section>
             <form id="myForm" enctype="multipart/form-data">
                 <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >Entre em contato comigo!</h2>
-                <!-- Nome -->
+            
                 <label class="label" for="nome">Nome</label>
                 <input class="campo" type="text" id="nome" name="nome" required>
             
-                <!-- Sobrenome -->
+  
                 <label class="label" for="sobrenome">Sobrenome</label>
                 <input class="campo" type="text" id="sobrenome" name="sobrenome" required>
             
-                <!-- Telefone (com máscara) -->
+             
                 <label class="label" for="telefone">Telefone</label>
                 <input class="campo" type="text" id="telefone" name="telefone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="(99) 99999-9999" required>
             
-                <!-- E-mail (com máscara básica) -->
+          
                 <label class="label" for="email">E-mail</label>
                 <input class="campo" type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
             
-                <!-- Mensagem -->
+       
                 <label class="label" for="mensagem">Mensagem</label>
                 <textarea class="campo" id="mensagem" name="mensagem" rows="5" required></textarea>
-            
-                <!-- Língua aplicada no serviço -->
+          
                 <label class="label" for="lingua">Língua aplicada no serviço</label>
                 <select class="campo" id="lingua" name="lingua" required>
                     <option value="ingles">Inglês</option>
@@ -79,11 +78,11 @@
                     <option value="portugues">Português (pt-br)</option>
                 </select>
             
-                <!-- Upload de protótipo (PDF, DOC, DOCX, JPEG, PNG) -->
+              
                 <label class="label" for="arquivo">Upload de protótipo</label>
                 <input class="campo" type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx,.jpeg,.png" required>
             
-                <!-- Linguagens preferidas (múltipla escolha) -->
+        
                 <label class="label" for="linguagens">Linguagens preferidas</label>
                 <select class="campo" id="linguagens" name="linguagens[]" multiple required>
                     <option value="python">Python</option>
@@ -91,9 +90,10 @@
                     <option value="java">Java</option>
                     <option value="csharp">C#</option>
                     <option value="php">PHP</option>
+                    <option value="TypeScript">TypeScript</option>
                 </select>
             
-                <!-- Tipo de banco de dados (campo rádio) -->
+        
                 <label class="label">Banco de dados recomendado</label>
                 <input class="radio" type="radio" id="mysql" name="banco" value="mysql" required>
                 <label class="label" for="mysql">MySQL</label>
@@ -102,7 +102,7 @@
                 <input class="radio" type="radio" id="mongodb" name="banco" value="mongodb">
                 <label class="label" for="mongodb">MongoDB</label>
             
-                <!-- Turno de preferência para reuniões -->
+        
                 <label class="label" for="turno">Turno de preferência para reuniões</label>
                 <select class="campo" id="turno" name="turno" required>
                     <option value="manha">Manhã</option>
@@ -110,15 +110,15 @@
                     <option value="noite">Noite</option>
                 </select>
             
-                <!-- Melhor horário sugerido para reuniões (formato time) -->
+           
                 <label class="label" for="horario">Melhor horário sugerido</label>
                 <input class="campo" type="time" id="horario" name="horario" required>
             
-                <!-- Previsão de entrega desejada (formato date) -->
+      
                 <label class="label" for="data">Previsão de entrega</label>
                 <input class="campo" type="date" id="data" name="data" required>
             
-                <!-- Botões -->
+              
                 <button class="btn" type="reset">Limpar</button>
                 <button class="btn" type="submit">Enviar</button>
             </form>
